@@ -3,9 +3,9 @@ function main() {
     var properCamelCase;
     var titleCaseOver;
 
-    var studlyCapVar = 10;
-    var properCamelCase = "A String";
-    var titleCaseOver = 9000;
+    studlyCapVar = 10;
+    properCamelCase = "A String";
+    titleCaseOver = 9000;
 
     return {
         studlyCapVar,
@@ -16,4 +16,4 @@ function main() {
 
 console.log(main());
 
-module.export = main;
+module.exports = main;

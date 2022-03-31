@@ -1,9 +1,9 @@
 function main() {
-    var x=8;
+    var x = 8;
 
     return x; 
 }
 
 console.log(main());
 
-module.export = main;
+module.exports = main;
